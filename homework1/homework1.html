@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Casino</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Random Number Game</header>
+    <form id = "Generater">
+        <span>Generate a number between 0 to </span>
+        <input type = "text" placeholder="Give me a number"/>
+    </form>
+    <form id = "Guess">
+        <span>Guess the number</span>
+        <input type = "text" placeholder="Give me a number"/>
+        <button>Play!</button>
+    </form>
+    <form id = "Show" class = "hidden">
+        <span>You chose : </span>
+        <span id = "User-Result"></span>
+        <span>, the machine chose :</span>
+        <span id = "Machine-Result"></span>
+    </form>
+    <span class = "hidden" id = "You">You</span>
+    <script src = "app.js"></script>
+</body>
+</html>

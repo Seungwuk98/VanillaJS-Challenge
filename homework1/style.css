@@ -1,0 +1,21 @@
+header {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 30px;
+}
+span {
+  font-size: 25px;
+}
+
+form {
+  margin: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#You {
+  margin: 20px;
+  font-weight: 700;
+}
