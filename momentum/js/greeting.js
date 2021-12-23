@@ -15,17 +15,12 @@ function onLoginSubmit(event){
    paintGreetings(username);
 }
 
-function handleLinkClick(event){
-    event.preventDefault();
-    console.log(event)
-}
 
 function paintGreetings(username){
     greeting.innerText = `Hello ${username}`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
-link.addEventListener("click", handleLinkClick)
 
 const savedUsername = localStorage.getItem(USERNAME_KEY);
 
